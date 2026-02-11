@@ -1,3 +1,4 @@
+# config/west.yml
 manifest:
   remotes:
     - name: zmkfirmware
@@ -8,7 +9,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main  # Change from v0.3.0 to main
+      revision: main
       import: app/west.yml
     - name: zmk-nice-oled
       remote: mctechnology17
