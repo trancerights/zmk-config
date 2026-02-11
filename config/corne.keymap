@@ -38,7 +38,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_0";
             #binding-cells = <0>;
-            tapping-term-ms = <135>;
+            tapping-term-ms = <170>;
             bindings = <&kp SQT>, <&kp SEMICOLON>;
         };
 
@@ -54,7 +54,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_DELETE";
             #binding-cells = <0>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <170>;
             bindings = <&kp ESCAPE>, <&kp CAPSLOCK>;
         };
     };
@@ -109,7 +109,7 @@
             label = "ZM_vim_quit";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp ESC &kp COLON &kp W &kp Q>;
+            bindings = <&macro_tap>, <&kp ESC &kp COLON &kp W &kp Q &kp ENTER>;
         };
 
         helixregistry: helixregistry {
