@@ -11,10 +11,10 @@
 
 // LAYERS
 
-#define DEFAULT 0
-#define NUM     1
-#define SYM     2
-#define FUNC    3
+#define def 0
+#define lower  1
+#define raise     2
+#define func    3
 
 // MACROS
 
@@ -132,7 +132,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        def_layer {
             bindings = <
 &none  &kp Q       &kp W       &kp E        &kp R         &kp T               &kp Y            &kp U            &kp I        &kp O       &td0            &none
 &none  &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHIFT F  &kp G               &kp H            &hm RSHIFT J     &hm RCTRL K  &hm RALT L  &hm LEFT_WIN P  &none
@@ -141,7 +141,7 @@
             >;
         };
 
-        num_layer {
+        lower_layer {
             bindings = <
 &none  &kp PRINTSCREEN  &kp LA(LEFT)  &kp UP    &kp LA(RIGHT)  &kp PG_UP    &kp PLUS   &kp N7  &kp N8  &kp N9  &kp ASTERISK  &none
 &none  &kp LEFT_WIN     &kp LEFT      &kp DOWN  &kp RIGHT      &kp PG_DN    &kp MINUS  &kp N4  &kp N5  &kp N6  &kp SLASH     &none
@@ -150,10 +150,10 @@
             >;
         };
 
-        sym_layer {
+        raise_layer {
             bindings = <
 &none  &kp EXCL   &kp AT     &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTERISK  &kp LPAR  &kp RIGHT_PARENTHESIS  &none
-&none  &kp GRAVE  &kp TILDE  &none     &none     &none        &kp MINUS  &kp EQUAL  &kp LBKT      &kp RBKT  &kp PIPE               &none
+&none  &kp GRAVE  &kp TILDE  &none     &COLON     &SEMICOLON        &kp MINUS  &kp EQUAL  &kp LBKT      &kp RBKT  &kp PIPE               &none
 &none  &kp TILDE  &none      &none     &none     &none        &kp UNDER  &kp PLUS   &kp LBRC      &kp RBRC  &kp BACKSLASH          &none
                              &trans    &trans    &trans       &trans     &trans     &trans
             >;
