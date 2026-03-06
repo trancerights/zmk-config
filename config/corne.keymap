@@ -180,10 +180,10 @@
         edit {
             label = "EDIT";
             bindings = <
-&trans  &kp F5     &kp F6  &kp F7     &kp F9     &kp F12      &kp M      &kp V          &kp G      &kp L     &kp I     &trans
-&trans  &kp SPACE  &kp L   &kp R      &kp Q      &kp LC(B)    &kp B      &kp E          &kp X      &kp LBKT  &kp RBKT  &trans
-&trans  &kp B      &kp D   &kp S      &kp P      &kp E        &kp N      &kp LA(N)      &kp TAB    &kp H     &kp D     &trans
-                           &kp LC(C)  &kp RC(V)  &kp LC(Z)    &kp LC(Z)  &kp LC(LS(Z))  &kp LC(T)
+&trans  &kp LC(C)  &kp RC(V) &kp LC(Z)    &kp B          &kp D            &kp F5     &kp F6  &kp F7     &kp F9     &kp F12      &trans
+&trans  &kp LC(S)  &kp LC(A) &kp SPACE    &kp E          &kp P            &kp M      &kp V    &kp G      &kp LBKT   &kp RBKT    &trans
+&trans  &kp LC(T)  &kp LC(X) &kp LC(LS(Z))&kp TAB        &kp LA(N)        &kp B      &kp E    &kp X      &kp L      &kp I       &trans
+                           &trans        &trans          &trans           &trans    &trans  &trans
             >;
         };
 
