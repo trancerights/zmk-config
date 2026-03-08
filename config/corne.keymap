@@ -179,7 +179,7 @@
 
         edit {
             label = "EDIT";
-            bindings = 
+            bindings = <
 &trans  &kp M      &kp V     &kp G      &kp L          &kp I        &kp F5     &kp F6         &kp F7     &kp F9    &kp F12   &trans
 &trans  &kp B      &kp E     &kp X      &kp LBKT       &kp RBKT     &kp SPACE  &kp L          &kp R      &kp Q     &kp LC(B) &trans
 &trans  &kp N      &kp LA(N) &kp TAB    &kp H          &kp D        &kp B      &kp D          &kp S      &kp P     &kp E     &trans
