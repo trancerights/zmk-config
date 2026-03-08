@@ -8,10 +8,6 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-nice-view
-      url: https://github.com/nicekeyboards/zmk-nice-view
-      revision: main
-      path: modules/zmk-nice-view
   
   self:
     path: config
